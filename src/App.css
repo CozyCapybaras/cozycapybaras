@@ -1,0 +1,228 @@
+.main {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 60px;
+    font-family:fantasy,Papyrus;
+    color: white;
+    text-align: center;
+}
+h2 {
+    margin: 10px;
+    font-size: 20px;
+    font-family:monospace,'Courier New';
+    color: white;
+    text-align: center;
+}
+h2.dropdown
+{
+    color: black;
+    font-size: 25px;
+    vertical-align: middle;
+    line-height: normal;
+}
+h3{
+    margin: 10px;
+    font-size: 16px;
+    font-family:monospace,'Courier New';
+    color: pink;
+    text-align: center;
+}
+h3.max{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    color:black;
+}
+
+div {
+    background-color: black;
+    color:white;
+}
+
+
+.search {
+    width: 30%;
+}
+
+ul {
+    font-size: 15px;
+    color:black;
+} 
+
+button{
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:fantasy,Papyrus;
+    font-size: 40px;
+}
+button.buy{
+    background-color: #4CAF50; 
+    border-radius: 16px;
+}
+button.sell{
+    background-color: red; 
+    border-radius: 16px;
+}
+button.back{
+    font-family:monospace,'Courier New';
+    font-size: 16px;
+}
+button.max{
+    background-color: pink;
+}
+button.solana{
+    font-family:monospace,'Courier New';
+    font-size: 16px;
+    background-image: linear-gradient(to right, #00FFA3 , #03E1FF, #DC1FFF);
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+.centered {
+    height: 12vh;  /*Magic here */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input[type=text] {
+    border-radius: 4px;
+    border: 3px solid #ccc;
+    outline: white;
+    color:white;
+}
+input[type=text]:focus {
+    border:none;
+    outline: none;
+    color:white
+}
+body {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    overflow-x: hidden
+}
+.plus , .minus {
+    height:30px;
+    width:30px;
+    border:1px black solid;
+    border-radius:50%;
+    font-family:monospace,'Courier New';
+    font-size: 16px;
+}
+.minus:hover{
+    background-color:red;    
+    border:none;
+}
+.plus:hover{
+    background-color:green;
+    border:none;
+}
+#numberPlace , #numberPlace1 {
+    margin-left:5px;
+    margin-right:5px;
+}
+#outlined-basic{
+    color: white;
+}
+span{
+    font-family:monospace,'Courier New';
+    font-size: 18px;
+}
+img.menu{
+    border-radius: 50%;
+    max-width: 15%;
+    float: left;
+}
+.menu:hover{
+    background-color:grey;
+}
+.marquee {
+    width: 900px;
+    background-image: linear-gradient(to right, #00FFA3 , #03E1FF, #DC1FFF);
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.marquee h2 {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 60s linear infinite;
+    text-transform: uppercase;
+}
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: green;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
