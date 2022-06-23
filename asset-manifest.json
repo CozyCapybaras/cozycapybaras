@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/cozycapybaras/static/css/main.a9c34b0b.css",
+    "main.js": "/cozycapybaras/static/js/main.cc87ec15.js",
+    "index.html": "/cozycapybaras/index.html",
+    "main.a9c34b0b.css.map": "/cozycapybaras/static/css/main.a9c34b0b.css.map",
+    "main.cc87ec15.js.map": "/cozycapybaras/static/js/main.cc87ec15.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9c34b0b.css",
+    "static/js/main.cc87ec15.js"
+  ]
+}
