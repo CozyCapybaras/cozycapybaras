@@ -1,7 +1,7 @@
 {
   "name": "solcasino",
   "version": "0.1.0",
-  "homepage": "http://CozyCapybaras.github.io/cozycapybaras",
+  "homepage": "https://cozycapybaras.github.io/cozycapybaras/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
@@ -61,8 +61,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages":"^2.36.1"
   }
 }
